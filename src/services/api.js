@@ -1,7 +1,7 @@
 // src/services/api.js
 import { message } from 'antd';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8080';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://smarthomemain2-6.onrender.com';
 
 // Cache object để lưu trữ data
 const cache = {
